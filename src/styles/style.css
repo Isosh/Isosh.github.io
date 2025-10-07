@@ -48,7 +48,7 @@ img {
   font-weight: 500;
 }
 
-.logo-text, h1, .simple, .subheader, .description-marked, .homepage-button, .learn-more-text {
+.logo-text, h1, .simple, .subheader, .description-marked, .homepage-button, .learn-more-text, .waiting-header, .radio-info-title {
   text-transform: uppercase;
 }
 
@@ -95,50 +95,49 @@ h1, .subheader {
 }
 
 .learn-more {
-    margin-top: 70px;
-    text-align: center;
+  margin-top: 70px;
+  text-align: center;
 }
 
 .learn-more-text {
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
 }
 
 .learn-more-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-/* Секция waiting */
 .waiting {
-    padding: 85px 0 75px 0;
-    background-color: #efefef;
+  padding: 85px 0 75px 0;
+  background-color: #efefef;
 }
 
 .waiting-header {
-    font-size: 30px;
-    font-weight: bold;
-    color: #252525;
-    text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #252525;
+  text-align: center;
 }
 
 .waiting-divider {
-    width: 217px;
-    height: 4px;
-    background-color: #F9BF3B;
-    margin: 18px auto 0 auto;
+  width: 217px;
+  height: 4px;
+  background-color: #F9BF3B;
+  margin: 18px auto 0 auto;
 }
 
 .waiting-subheader {
@@ -179,7 +178,7 @@ h1, .subheader {
   position: relative;
   padding: 80px 0;
   background-color: #0F0B0B;
-  overflow: hidden; /* чтобы спрятать выходящие части картинки */
+  overflow: hidden;
 }
 
 .radio-info-container {
@@ -187,7 +186,7 @@ h1, .subheader {
   text-align: right;
   max-width: 700px;
   margin-left: auto;
-  margin-right: 400px; /* <-- смещение текста ближе к центру */
+  margin-right: 400px;
   z-index: 2;
 }
 
@@ -212,73 +211,73 @@ h1, .subheader {
 .radio-image {
   position: absolute;
   bottom: 0;
-  left: 300px;  /* <-- смещение картинки от левого края ближе к центру */
+  left: 300px;
   z-index: 1;
   width: 600px;
 }
 
 .after-complete{
-  background-image: url('../img/Bg.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0;
-    text-align: center;
-    color: white;
+background-image: url('../img/Bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
 }
 
 .skills-title {
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    color: #F9BF3B;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F9BF3B;
 }
 
 .skills-wrapper {
-    display: flex; 
-    justify-content: center;
-    gap: 30px;
-    max-width: 1200px;
-    margin-top: 100px;
-    padding: 0 20px;
+  display: flex; 
+  justify-content: center;
+  gap: 30px;
+  max-width: 1140px;
+  margin-top: 50px;
+  padding: 0 20px;
 }
 
 .skill {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex: 0 1 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 1 200px;
 }
 
 .skill-icon {
-    position: relative;
-    width: 110px;
-    height: 110px;
-    margin: 0 auto 20px;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 20px;
 }
 
 .icon-img {
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    margin: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  margin: 0;
 }
 
 .circle {
-    width: 100%;
-    height: auto;
-    z-index: 1;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 
 .skill-name {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: white;
 }
 
 .presents-container {
@@ -297,16 +296,16 @@ h1, .subheader {
 }
 
 .presents img {
-    width: 100px;
-    margin-bottom: 40px;
+  width: 100px;
+  margin-bottom: 40px;
 }
 
 .presents-text {
-    max-width: 600px;
-    margin-bottom: 40px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.3;
+  max-width: 600px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 .sign-button {
@@ -320,37 +319,37 @@ h1, .subheader {
 }
 
 .webinar {
-    background-color: #0d0d0d;
-    color: white;
-    padding: 50px 0;
-    text-align: center;
+  background-color: #0d0d0d;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
 }
 
 .webinar-header {
-    font-weight: 500;
-    margin: 20px 0 10px;
-    font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  font-size: 25px;
 }
 
 .webinar-subheader {
-    color:#F9BF3B;
-    font-weight: bold;
-    margin: 0 0 20px;
-    font-size: 35px ;
+  color:#F9BF3B;
+  font-weight: bold;
+  margin: 0 0 20px;
+  font-size: 35px ;
 }
 
 .webinar-text {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .webinar img {
-    position: relative;
-    margin: 20px auto;
+  position: relative;
+  margin: 20px auto;
 }
 
 .footer {
-    background-color: #1a1a1a;
-    padding: 20px 0;
+  background-color: #1a1a1a;
+  padding: 20px 0;
 }
 
 .footer-container {
@@ -361,8 +360,8 @@ h1, .subheader {
 }
 
 .footer a {
-    color: #888888;
-    margin: 0 5px;
-    text-decoration: underline;
+  color: #888888;
+  margin: 0 5px;
+  text-decoration: underline;
 
 }
